@@ -22,7 +22,7 @@ public class CruddemoApplication {
     public CommandLineRunner commandLineRunner(StudentDAO studentDAO) {
         return runner -> {
             var a = runner;
-            createStudent(studentDAO);
+           // createStudent(studentDAO);
            // readStudent(studentDAO);
            // findAllStudents(studentDAO);
            // findStudentByLastName(studentDAO);
